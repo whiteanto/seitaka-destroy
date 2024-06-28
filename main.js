@@ -41,7 +41,7 @@
 			let positionTop = Math.random() * 500 + 'px';
 			let positionRight = Math.random() * 550 + 'px';
 			field.appendChild(seitaka);
-			seitaka.src = '素材/seitaka.png';
+			seitaka.src = 'seitaka.png';
 			seitaka.className = 'enemy';
 			seitaka.style.top = positionTop;
 			seitaka.style.right = positionRight;
