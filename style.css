@@ -1,0 +1,73 @@
+
+#center {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+#gamemoniter {
+	width: 600px;
+	height: 600px;
+	padding: 12px;
+}
+
+#field {
+	width: 600px;
+	height: 550px;
+	background-color: rgb(181 230 130);
+	text-align: center;
+	position:relative;
+	cursor: url('素材/doku2.png'), auto;
+
+}
+
+#field img {
+	width: 56px;
+	height: 56px;
+	position:absolute;
+}
+
+#field p{
+	padding: 0;
+	margin: 0 auto;
+	font-size: 64px;
+	position:absolute;
+	top:250px;
+	right: 200px;
+	
+}
+
+#score {
+	text-align: right;
+	margin: 0 24px 0 0;
+	padding: 0;
+	font-size: large;
+	font-weight: bold;
+}
+
+#timer {
+	text-align: right;
+	margin: 0 24px 0 0;
+	padding: 0;
+	font-size: large;
+	font-weight: bold;
+}
+
+p {
+	text-align: center;
+}
+
+#bt {
+	text-align: center;
+}
+
+button {
+	font-size: 36px;
+	font-weight: bold;
+	text-align: center;
+	margin: 8px 0 24px 0;
+	padding: 0;
+	border: none;
+	background: transparent;
+}
